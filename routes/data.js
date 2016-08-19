@@ -56,7 +56,7 @@ router.get('/form', function (req, res) {
             req.session.user = req.session.userInfo.name.givenName + " " + req.session.userInfo.name.familyName;
         }
         res.render('demarche-form.ejs', {
-            title: 'Démonstrateur France Connect - Inscription à la cantine scolaire',
+            title: "Démonstrateur X Connect - Inscription à l'école",
             user: req.session.user,
             userInfo: req.session.userInfo,
             authUrl: config.oauth.authorizationURL
@@ -157,7 +157,7 @@ router.get('/done', function (req, res, next) {
 router.get('/fin-demarche', function (req, res) {
     if (req.session.user) {
         res.render('demarche-fin.ejs', {
-            title: 'Démonstrateur France Connect - Confirmation de votre inscription',
+            title: 'Démonstrateur X Connect - Confirmation de votre inscription',
             user: req.session.user
         });
     } else {

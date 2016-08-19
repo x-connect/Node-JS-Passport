@@ -1,0 +1,22 @@
+{
+  "env": "development",
+  "fcURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp",
+  "openIdConnectStrategyParameters": {
+    "clientID": "892b4068-5c8f-4f66-9cab-06ed16449608",
+    "clientSecret": "acJwYvR4KSgbnSMUp3TSGYkM_lEkJPYeuVRBOyn21olp6YgF1hKHuQoDAW62QN5ZeccXuUC4n3yiMS6NOKzA6A",
+    "callbackURL": "http://ns357509.ip-91-121-149.eu:3002/oidc_callback",
+    "authorizationURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/authorize",
+    "tokenURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/token",
+    "userInfoURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/userinfo",
+    "logoutURL":"http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/logout",
+    "acr_values":"eidas2",
+    "scope": ["profile", "email", "address", "phone", "openid", "birthplace", "birthcountry"]
+  },
+  "oauth": {
+    "authorizationURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/authorize",
+    "tokenURL": "http://ns357509.ip-91-121-149.eu:8080/openid-connect-server-webapp/token",
+    "callbackURL": "http://ns357509.ip-91-121-149.eu:3002/data/callback",
+    "scopes": ["dgfip_revenu_fiscal_de_reference","/quotientfamilial"]
+  },
+  "quotientFamilialURL": "http://ns357509.ip-91-121-149.eu:3044/quotientFamilial"
+}

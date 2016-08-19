@@ -52,7 +52,7 @@ router.get('/demarche/etape1', function (req, res) {
         req.session.user = given_name + ' ' + family_name;
 
         res.render('demarche-etape1', {
-            title: 'Démonstrateur France Connect - Inscription à la cantine scolaire',
+            title: "Démonstrateur X Connect - Inscription à l'école",
             user: req.session.user
         });
     } else {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 service-providers-examples
 ==========================
 
@@ -10,3 +11,7 @@ Exemples fournis par des partenaires :
 - [https://adullact.net/scm/viewvc.php/?root=hackathon-fc] (https://adullact.net/scm/viewvc.php/?root=hackathon-fc) : exemple en PHP
 - [https://github.com/florent-andre/franceconnecthelper] (https://github.com/florent-andre/franceconnecthelper) : exemple en Java avec la librairie Apache Oltu
 - [https://github.com/astik/poc-franceconnect] (https://github.com/astik/poc-franceconnect) : nouvel exemple en Java, toujours avec Oltu, réalisé lors du workshop du 20 Janvier 2016. Ce nouvel exemple se base sur celui de Florent Andre, et inclut, en plus, la déconnexion
+=======
+# Node-JS-Passport
+Node JS Example using the Passport Library
+>>>>>>> 9c4dec3f6c30b29b8818d91f0536d9a85aa2ed72
