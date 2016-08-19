@@ -1,7 +1,6 @@
-Test réseau
 
-##Pour installer l'application:
+##To start-up the application:
 `npm install`
 
-##Pour lancer l'application :
+##To launch the application :
 `PORT=3001 npm start`
